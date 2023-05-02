@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4388EBA2A007D79004D8A3F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4388EB92A007D79004D8A3F /* Question.swift */; };
 		A4B0DE2929FD9B8B0051B8B9 /* MultiPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0DE2829FD9B8B0051B8B9 /* MultiPlayApp.swift */; };
 		A4B0DE2B29FD9B8B0051B8B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0DE2A29FD9B8B0051B8B9 /* ContentView.swift */; };
 		A4B0DE2D29FD9B8D0051B8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B0DE2C29FD9B8D0051B8B9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4388EB92A007D79004D8A3F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = MultiPlay/Question.swift; sourceTree = "<group>"; };
 		A4B0DE2529FD9B8B0051B8B9 /* MultiPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B0DE2829FD9B8B0051B8B9 /* MultiPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayApp.swift; sourceTree = "<group>"; };
 		A4B0DE2A29FD9B8B0051B8B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		A4B0DE1C29FD9B8B0051B8B9 = {
 			isa = PBXGroup;
 			children = (
+				A4388EB92A007D79004D8A3F /* Question.swift */,
 				A4B0DE2729FD9B8B0051B8B9 /* MultiPlay */,
 				A4B0DE2629FD9B8B0051B8B9 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4388EBA2A007D79004D8A3F /* Question.swift in Sources */,
 				A4B0DE2B29FD9B8B0051B8B9 /* ContentView.swift in Sources */,
 				A4B0DE2929FD9B8B0051B8B9 /* MultiPlayApp.swift in Sources */,
 			);
@@ -274,7 +278,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +307,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
